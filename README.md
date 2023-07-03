@@ -12,9 +12,10 @@ Currently, the following are (more or less) working:
  - ANOVA
  - Decision Trees
  - Metrics and Helper Functions
+ - Logistic Regression
  - Probit
  - OLS
- - Self-Organizing Maps
+ - Self-Organizing Maps (SOMs)
 
 ## Features
 

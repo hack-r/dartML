@@ -1,7 +1,7 @@
 import 'dart:math';
 
 class LogisticRegression {
-  List<double> coefficients;
+  late List<double> coefficients;
 
   LogisticRegression();
 
