@@ -40,13 +40,13 @@ $ dart pub get
 
 Import the library into your Dart file:
 
-import 'package:your_library/your_library.dart';
+import 'package:dartML/dartML.dart';
 
 
 ### Decision Trees
 
 ```dart
-import 'package:dartML/algorithms/logistic_regression.dart';
+import 'package:dartML/models/supervised/logistic_regression.dart';
 
 void main() {
   // Load your dataset and preprocess it as needed
@@ -68,7 +68,7 @@ void main() {
 }
 ```
 ```dart
-import 'package:dartML/algorithms/decision_tree.dart';
+import 'package:dartML/models/supervised/decision_tree.dart';
 
 void main() {
 // Load your dataset and preprocess it as needed
@@ -92,7 +92,7 @@ print('Predicted label: $predictedLabel');
 ### Gradient Boosting
 
 ```dart
-import 'package:dartML/algorithms/gradient_boosting.dart';
+import 'package:dartML/models/supervised/gradient_boosting.dart';
 
 void main() {
   // Load your dataset and preprocess it as needed
@@ -115,7 +115,7 @@ void main() {
 ```
 Neural Networks:
 ```dart
-import 'package:dartML/algorithms/neural_network.dart';
+import 'package:dartML/models/supervised/nn.dart';
 
 void main() {
   // Load your dataset and preprocess it as needed
@@ -142,7 +142,7 @@ void main() {
 
 Propensity Score Matching (PSM):
 ```dart
-import 'package:dartML/algorithms/propensity_score_matching.dart';
+import 'package:dartML/models/supervised/psm.dart';
 
 void main() {
 // Load your dataset and preprocess it as needed
