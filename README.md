@@ -169,7 +169,7 @@ print(sample);
 ### Evaluation Metrics
 Accuracy:
 ```dart
-import 'package:dartML/metrics/accuracy.dart';
+import 'package:dartML/metrics.dart';
 
 void main() {
   List<int> trueLabels = ...; // True labels
